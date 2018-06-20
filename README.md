@@ -10,6 +10,3 @@ Portfolio is a web page to showcase all the skills and projects worked on. It ha
 ### Requirement
 
 Any browser.
-
-### Link
-Use the following link to open the web page: https://RaziyaSultana.github.io/Portfolio/
