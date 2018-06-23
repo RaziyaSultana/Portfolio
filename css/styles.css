@@ -89,8 +89,6 @@ font-family:italic;
 	display: flex;
     width:900px;
    max-width:100%;
-  align-items:left;
-  
 }
 
 .center {
@@ -102,9 +100,7 @@ font-family:italic;
 	width: 900px;
 	max-width: 100%;
 	font-size: 1em;
-  text-align:center;
-  
-  
+    text-align:center;
 }
 
 .style-card {
@@ -165,6 +161,8 @@ footer {
 	margin-top: 20px;
 	text-align: center;
 	font-size: 23px;
+	/**/
+	padding: 55px;
   font-family:Comic Sans MS;
   border-top: 5px solid #7d97ad
 }
@@ -241,7 +239,9 @@ footer img {
 		text-align: center;
 	}
     #center-img{
-		font-size: 1.5em;
+		font-size: 1em;
+		/**/
+		padding: 71px;
 	}	
 
 }
@@ -250,9 +250,11 @@ footer img {
 @media screen and (max-width: 776px)
 {
 
-#sec1-content,#sec2-content {
-	flex-direction: column;
-    align-items: center;
+    #sec1-content,#sec2-content {
+	    flex-direction: column;
+		align-items: center;
+		/**/
+		padding: 50px;
 	
-}	
+       }	
 }
